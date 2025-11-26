@@ -1,0 +1,30 @@
+Student A	Student B	review_or_create	Tool	toolname	Link
+Abby S	Jiayi M	create	BLASTp	blastp	https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins
+Aiman S	Jierui W	review	BLASTx	blastx	https://blast.ncbi.nlm.nih.gov/Blast.cgi
+Ak K	Joseph D	review	tblastn	tblastn	https://blast.ncbi.nlm.nih.gov/Blast.cgi
+Anzar A	Katherine L	review	AlphaFold3	alphafold	https://golgi.sandbox.google.com/
+Artem B	Keegan L	create	AlphaFold3 (RNA)	Alphafold-rna	https://golgi.sandbox.google.com/
+Artem G	Khushi K	review	HHpred	hhpred	https://toolkit.tuebingen.mpg.de/tools/hhpred
+Aruzhan B	Mark L	review	INFERNAL	infernal	https://www.ebi.ac.uk/jdispatcher/rna/infernal_cmscan
+Brian X	Mark M	review	InterProScan	interproscan	https://www.ebi.ac.uk/interpro/result/InterProScan/
+Christina Z	Megan D	review	IQ-TREE	iqtree	http://iqtree.cibiv.univie.ac.at/
+Christine C	Merrilyn C	review	iupred2a	iupred2a	https://iupred2a.elte.hu
+Clara W	Mohammad D	review	mFold	mfold	http://www.unafold.org/mfold/applications/rna-folding-form.php
+David A	Muneer J	review	Mgnify Search	mgnifysearch	https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
+Dingjiu T	Neyo T	review	MUSCLE	muscle	https://www.ebi.ac.uk/jdispatcher/msa/muscle
+Edmund W	Nour H	review	ORFfinder	orffinder	https://www.ncbi.nlm.nih.gov/orffinder/
+Eileen L	Owen L	review	PebbleScout	pebblescout	https://pebblescout.ncbi.nlm.nih.gov/
+Emilie H	Rayna M	create	Protein Data Bank	pdb	https://www.rcsb.org/
+Esther C	Robinson M	create	ProteInfer	proteinfer	https://google-research.github.io/proteinfer/
+Eun C	Roxanne H	create	Rfam Search	rfamsearch	https://rfam.org/
+Flavia T	Ryan F	review	RNAfold	rnafold	http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi
+Francesca M	Sabrina X	review	SixPack	sixpack	https://www.ebi.ac.uk/Tools/st/emboss_sixpack/
+Gretl B	Sophia L	review	NCBI Taxonomy	taxonomy	https://www.ncbi.nlm.nih.gov/taxonomy
+Howard C	Vicky T	create	Viral Zone	viralzone	https://viralzone.expasy.org/
+Ibrahim M	Victoria P	create	FoldSeek	foldseek	https://search.foldseek.com/
+Ismail M	Wendy W	create	dotmatcher	dotmatcher	https://www.ebi.ac.uk/jdispatcher/seqstats/emboss_dotmatcher
+Jahin K	Wesley C	create	ESM Atlas	esmatlas	https://esmatlas.com/
+Jared S	Will L	create	MetaGraph	metagraph	https://metagraph.ethz.ch/
+Jay D	Xiaofeng L	create	MyDomans	mydomains	https://prosite.expasy.org/mydomains/
+Jeremy C	Yein C	create	Phyre2	phyre2	https://www.sbg.bio.ic.ac.uk/~phyre2/html/page.cgi?id=index
+Jialu F	Zheng T	create	MEME	meme	https://meme-suite.org/meme/tools/meme

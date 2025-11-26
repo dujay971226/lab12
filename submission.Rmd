@@ -1,0 +1,225 @@
+---
+title: "Lab12: Documentation is happiness"
+output: html_document
+---
+
+## Preamble
+
+Please mark the following boxes with an X as appropriate:
+
+```
+[ ] Answers assisted with generative AI (please indicate where)
+
+```
+
+Lesson Feedback (2 minutes): Please share your feedback about this lecture to
+improve the course, and tailor it to your learning for the next lecture.
+
+Link:
+
+## Tutorial Objectives:
+
+```
+"happiness only real when shared"
+- Christopher McCandless
+
+Like happiness, what we do as scientists only matters if we are able to share
+it with those around us. Be it through scientific publications, presentations,
+or even code documentation. Our ability to explain and teach the next
+generation of scientists is equally important to our ability to do the science
+in the first place.
+
+Here you will go into the wild and try a web-based bioinforamtics tool. Explore,
+play, experiment and learn. You will then take those experiences and create or
+improve a "Tutorial" which will teach next-years MGY441's students to do 
+their Virus Discovery better.
+```
+
+## The `VIRUSxDISCVRY` Repository
+
+- [VIRUSxDISCVRY GitHub Repo](https://github.com/ababaian/VIRUSxDISCVRY)
+
+We are collectively building a public Virus Discovery repository which will
+collect and curate tutorials for web-tools which could be used as part of the
+MGY441 Assignment 3.
+
+As for the previous assignments you're expected to submit your answers by the 
+deadline to your MGY441 gitlab repository.
+
+```
+# Pull Lab 12
+# (remember to replace UTORid with your actual UTORid)
+git clone https://gitlab.ccbr.utoronto.ca/UTORid/Lab11
+```
+
+```
+# Submitting your work
+cd lab12
+git commit -a -m "Completed Lab12"
+git push
+```
+
+I _highly_ encourage you to publish both 
+  (i) the tutorial you create as part of this task, and
+  (ii) the markdown template for your Assignment 3 to the
+  
+`VIRUSxDISCOVERY` repository. Although, you are not obliged to do so.
+
+## Question 1 : Software Tutorial `(10 points)` --------------------------------
+** Due 10PM Nov 28th 2025 **
+
+**Q.**: In the `data/toolAssignment.csv` you are assigned a web-based
+bioinformatics tool or resource. You are assigned as either `CREATE` or `REVIEW`
+
+You are to create or update a wiki-style Tutorial for {Insert Your Tool Name},
+using as the example the virus from your Project. If your tool/virus combination
+does not work, you may use a generic postive control sequence of your choice.
+
+For this, your audience is your MGY441 peers, who will use your tutorial and
+apply it to improve their Project answers, and also next years MGY441
+students. As such consider the emphasis of these tutorials to be on how
+the tools apply to Virus Discovery.
+
+Note: If you wish to write a tutorial for another tool/resource which you have
+found useful as part of your project and that tool is not listed in the 
+`toolAssignment.csv`, you may do so, just message Artem on Piazza/email with
+the name and link of the tool you would like to do.
+
+- Template Tutorial Page: [`toolTemplate.md`](https://github.com/ababaian/VIRUSxDISCVRY/blob/main/tools/toolTemplate.md)
+- Example Tutorial Page: [`Serratus.io Explorer`](https://github.com/ababaian/VIRUSxDISCVRY/blob/main/tools/serratusexplorer.md)
+
+================================================================================
+`CREATE` Instructions
+================================================================================
+
+`2 points` - Introduction section provides a succinct description of what the
+             tool does, what the expected inputs and outputs are, and a sentence
+             to motivate users on the biological utility of this tool.
+
+`4 points` - Tutorial and analysis walkthrough goes through the steps needed
+             to run the tool, provides examples, illustrative screenshots or
+             figures. There are reference to useful/related additional links and
+             reference for citing the tool, and a paper describing the tool.
+
+`4 point`  - There is a conclusion, and description of how to biologically
+             interpret the output. The section is supported by figures where
+             appropriate, with figure legends.
+
+`5 point`(Bonus) - Due: Friday Nov 28th Midnight.
+                   If a tutorial does not exist for your tool:
+                   Complete the push to the `VIRUSxDISCVRY` repo below before
+                   If a tutorial exists for your tool:
+                   Peer review the tutorial and add/modify it to make it better.
+                   
+**A.**: To complete this assignment, modify the `toolTemplate.md` file.
+
+================================================================================
+`REVIEW` Instructions
+================================================================================
+
+As the basis for your answers, find the current tutorial for {Your tool} on the
+VIRUSxDISCVRY repo:
+
+  https://github.com/ababaian/VIRUSxDISCVRY/blob/main/README.md#tutorial-index
+
+
+
+`2 points` - Introduction section provides a succinct description of what the
+             tool does, what the expected inputs and outputs are, and a sentence
+             to motivate users on the biological utility of this tool.
+             
+             Suggest upto 4 edits to improve the current introduction
+
+`4 points` - Tutorial and analysis walkthrough goes through the steps needed
+             to run the tool, provides examples, illustrative screenshots or
+             figures. There are reference to useful/related additional links and
+             reference for citing the tool, and a paper describing the tool.
+             
+             Go through the tutorial:
+             Add any documentation which is missing AND/OR
+             Add images/screenshots (if missing) AND/OR
+             Correct any factual errors in the tutorial AND/OR
+             Add referneces or useful links AND/OR
+             Add one example of the tool used in a scientific publication AND/OR
+             Add something cool to the page
+
+`4 point`  - Add a new section: `Interpreting Results` provide a description
+             of how to interpret the output of the tool. This section should
+             answer
+             
+             1) How is output "confidence" measured by the tool? Describe briefly
+                the underlying math and/or calculation.
+             2) What are the common/accepted thresholds for "true positive" or
+                "signifiance" outputs confidence values?
+             3) How can the output be used in the creation of a "Figure" for
+                the Final Project? What information or parameters must be
+                included in the "legend" documentation so that the analysis can
+                be reproducible.
+             4) Create or update the "Output Figure" of the analysis, and include
+                an example of a well documented, and supported figure legend.
+                (It's OK if the results are non-significant, just document it).
+
+`5 point`(Bonus) - Due: Friday Nov 28th Midnight.
+                   If a tutorial does not exist for your tool:
+                   Complete the push to the `VIRUSxDISCVRY` repo below before
+                   If a tutorial exists for your tool:
+                   Peer review the tutorial and add/modify it to make it better.
+                   
+**A.**: To complete this assignment, modify the `toolTemplate.md` file.
+
+## Submitting your tool wiki to `VIRUSxDISCVRY` (*OPTIONAL*) -------------------
+
+1. Navigate to https://github.com/ababaian/VIRUSxDISCVRY
+
+2. `Fork` the `VIRUSxDISCVRY`to your own github account.
+
+3. `Clone` your copy of the repository to your local computer
+
+```
+# Pull Tutorial Repository
+git clone https://github.com/<YOUR_GITHUB_ID>/VIRUSxDISCVRY.git
+```
+
+3. Add your tutorial or updates to your local repository.
+
+This means add your `{toolname.md}` to the `tools/` folder and link any data or
+image files into `tools/img/{toolname}/figure1.png` etc... as needed.
+
+4. `Commit` and `Push` your local changes to your version of the repository.
+
+```
+# Submitting your work
+cd VIRUSxDISCVRY
+git commit -a -m "Added mytool Tutorial and supporting data"
+
+# This will push to YOUR "fork" of the repository, and you should
+# see it online on your github version
+git push
+```
+
+5. Create `Pull Request` to merge your changes into the common `VIRUSxDISCVRY`
+
+When you're ready to merge your own repository into the main public repository
+you will do this by opening a `Pull Request`.
+
+On the GitHub page for _your fork_ of the repository. At the top tabs, click on
+`Pull Requests` and then click on the green `Nuew Pull Request` button.
+
+As the `base repository` select `ababaian/VIRUSxDISCVRY` and
+as the `head repository` select `<YOURNAME>/VIRUSxDISCVRY` and click "Create
+Pull Request".
+
+
+## Submitting your Obelisk Report to `VIRUSxDISCVRY` (*OPTIONAL*) --------------
+** DUE 10PM Dec 4th, 2024 **
+
+The work you've all done on the Projects has been *amazing!* I'd love to share
+each of these projects year after year and have students build on top of one
+another.
+
+For `10 bonus points` on your `Final Project`, copy and paste your answers from
+`Assignment 3` and `Tutorial 2` as indicated in the [`virTemplate.md`](https://github.com/ababaian/VIRUSxDISCVRY/blob/main/virus/virTemplate.md) file.
+
+Follow the same instructions as above for "Submitting your tool wiki" but instead
+submit the parsed version of your `Assignment 3` to the `VIRUSxDISCVRY` repo.
+

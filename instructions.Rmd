@@ -1,0 +1,21 @@
+# Lab12
+
+## Getting started
+
+First, clone the repository containing this week's lab:
+
+```
+git clone https://gitlab.ccbr.utoronto.ca/UTORid/Lab12
+```
+
+(remember to replace UTORid with your actual UTORid)
+
+## Submitting your work
+
+After you are finished you with the lab you can commit and push it to gitlab using the same commands as previous weeks:
+  
+  ```
+cd lab12
+git commit -a -m "Completed Lab12"
+git push
+```

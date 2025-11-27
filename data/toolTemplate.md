@@ -24,16 +24,41 @@ The output is a graphic image (in PNG format) showing a schematic of the protein
 a rectangular “bar” representing the full protein, with colored/shaped boxes 
 (or shapes) along it corresponding to the domains (or other features) you specified.
 
+![Sample Output](sample_output.png)
+
+You can right-click on the image and choose “Save Image As” to download the PNG.
+
 ### 1. Tutorial Instructions
 
 #### 1. Add Domain:
 
+You can add a domain by typing start, stop, shape, color, text in the Domain data text field.  
 
+For example, "100, 200, 2, 4, Domain_1" means adding a domain called Domain_1 
+with a shape of 2(sphere), and colored 4(gray), started from 100 to 200.  
+![Example: Add Domain](add_domain_example.png){width=50%}
 
+<br>
 
+Supported shapes include:  
+![Supported Shapes](shapes.png)  
+1. rectangle  
+2. Sphere  
+3. Pentagon - pointing towards right  
+4. Pentagon - pointing towards left  
+5. Hexagon - edge points down  
+6. Hexagon - angle points down.  
 
+<br>
 
+Supported color include:  
+![Supported Colors](colors.png)  
+1. Orange  
+2. Green  
+3. Blue  
+4. Grey  
 
+<br>
 
 #### 2. Add Range:
 

@@ -1,16 +1,22 @@
 # {Name of the Tool}
-written by: [Jay Du, Xiaofeng Li](https://github.com/yourname *optional link*)
+written by: [Jay Du, Xiaofeng Li](https://github.com/dujay971226/lab12)
 
-[5 minute] {2-4 sentence description of (1) which tool this tutorial is for (2) how this tool works and (3) how it pertains to Virus Discovery.}
+[5 minute] This tutorial covers MyDomains, a PROSITE/ExPASy tool used to generate
+schematic diagrams of protein domain architecture. The tool works by allowing users
+to input a protein’s length and the positions of its domains or motifs, then
+automatically producing a visual map of those features. In virus discovery,
+such diagrams help researchers quickly interpret predicted viral proteins,
+compare domain arrangements, and identify hallmark domains that support classification
+or functional inference.
 
-**Tutorial Objective**: {1 sentence describing what the reader will accomplish in this tutorial}
+**Tutorial Objective**: By the end of this tutorial, you will know how to use the 
+MyDomains web interface to input a protein sequence, define its domains, and 
+generate a clear visual map of its domain architecture.
 
 ## Input / Prerequisites
-- [Tool Weblink](https://serratus.io/)
-- [Link to example data](img/template/ao.fa)
-- {What are the required inputs for the tutorial. Include example data here if applicable or link to the data as above.}
-- {Are there any specific system or other requirements needed?}
-- ...
+- Any Web Browser
+- https://prosite.expasy.org/cgi-bin/prosite/mydomains/
+- Sample details for the protein being analyzed
 
 ## Output
 

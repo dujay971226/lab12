@@ -71,7 +71,7 @@ I _highly_ encourage you to publish both
 **Q.**: In the `data/toolAssignment.csv` you are assigned a web-based
 bioinformatics tool or resource. You are assigned as either `CREATE` or `REVIEW`
 
-You are to create or update a wiki-style Tutorial for {Insert Your Tool Name},
+You are to create or update a wiki-style Tutorial for {MyDomains: Image Creator},
 using as the example the virus from your Project. If your tool/virus combination
 does not work, you may use a generic postive control sequence of your choice.
 

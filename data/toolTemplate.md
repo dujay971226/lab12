@@ -1,4 +1,4 @@
-# {Name of the Tool}
+# {MyDomains}
 written by: [Jay Du, Xiaofeng Li](https://github.com/dujay971226/lab12)
 
 [5 minute] This tutorial covers MyDomains, a PROSITE/ExPASy tool used to generate
@@ -60,22 +60,18 @@ Supported color include:
 
 <br>
 
-#### 2. Add Range:
+### 2. Add Range
 
+If users want to highlight some regions in the protein (like regions between domains), they can type in following format in the Domain data box: "start, stop, type"
+which start and stop refers to the region which users want to highlight. The type is 0 or 1 indicates green line or a box covers that region.
+![range.png](sample_add_range.png)
+### 3. Add Site
 
-### 2. ...
-
-### N. ...
-
+If users want to highlight a specific site in the protein, they can type in following format in the Domain data box: "position, type"
+which position is the site users want to highlight, and type is 0 or 1 refers a gray or red narrow to that site.
+![site.png](sample_add_site.png)
 ### Conclusion
+This example shows a Tyrosine Kinase Receptor, a signaling protein on the cell membrane. It includes a signal peptide guiding secretion, an extracellular domain for ligand binding, a transmembrane region anchoring the protein, and a kinase domain for phosphorylation. Two autophosphorylation sites (Y515, Y789) regulate downstream signaling. This illustrates how domain structure supports receptor function.
+![conclusion.png](sample_conclusion.png)
 
-That's it! You've used the {Tool Name} to {objective}!
 
-{2-3 sentences which describe the main conclusions of what the reader should come away from this learning}
-
-### See Also:
-
-- [Publication Name](https://www.nature.com/articles/s41586-021-04332-2)
-- [Additional useful link](https://web.archive.org/web/19991128125537/http://www.geocities.com/Heartland/Bluffs/4157/hampdance.html)
-- [10 best practices for writing documentation](https://www.grammarly.com/blog/developer/10-best-practices-writing-documentation/)
-- ...
